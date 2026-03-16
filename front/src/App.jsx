@@ -30,9 +30,9 @@ const App = () => {
 export default App;
 
 const Root = () => {
-  const inAuthenticated = !!localStorage.getItem("token");
+  const isAuthenticated = !!localStorage.getItem("token");
 
-  return isAuthenticate ? (
+  return isAuthenticated ? (
     <Navigate to="/dashboard" />
   ) : (
     <Navigate to="login" />

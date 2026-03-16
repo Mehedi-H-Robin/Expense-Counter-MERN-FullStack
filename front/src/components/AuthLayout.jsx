@@ -1,5 +1,3 @@
-import React from "react";
-
 import Dash_Img from "../assets/images/graph.jpg";
 import { LuTrendingUpDown } from "react-icons/lu";
 
@@ -25,7 +23,7 @@ const AuthLayout = ({ children }) => {
         <img
           src={Dash_Img}
           alt=""
-          className="w-64 h-120 lg:w-[85%]  shadow-lg shadow-blue-400/15 absolute bottom-10 rounded-4xl"
+          className="md:w-48 h-98 lg:w-[80%]  shadow-lg shadow-blue-400/15 absolute bottom-10 rounded-4xl"
         />
       </div>
     </div>
